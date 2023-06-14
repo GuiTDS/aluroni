@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'normalize.css';
 import './index.css';
+import Cardapio from './pages/Cardapio';
 
 
 const root = ReactDOM.createRoot(
@@ -8,6 +10,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <div><h1>teste</h1></div>
+    <Cardapio />
   </React.StrictMode>
 );
